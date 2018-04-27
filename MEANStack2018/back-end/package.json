@@ -1,0 +1,14 @@
+{
+  "name": "my-message-backend",
+  "version": "1.0.0",
+  "description": "final-project",
+  "main": "",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
