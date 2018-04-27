@@ -6,6 +6,7 @@ export class MainController {
     this.classAnimation = '';
     this.creationDate = 1524840621028;
     this.toastr = toastr;
+    this.postMessage = this.postMessage.bind(this);
 
     this.activate($timeout, webDevTec);
   }
@@ -28,5 +29,9 @@ export class MainController {
   showToastr() {
     this.toastr.info('Fork <a href="https://github.com/Swiip/generator-gulp-angular" target="_blank"><b>generator-gulp-angular</b></a>');
     this.classAnimation = '';
+  }
+
+  postMessage(){
+    console.log("this button was pushed")
   }
 }
