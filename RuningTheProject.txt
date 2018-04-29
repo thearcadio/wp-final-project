@@ -15,3 +15,7 @@ cd ~/desktop/FinalProject/wp-final-project/MEANStack2018/back-end
 
 Then run this command:
 node server.js
+
+TO CLEAR OUT THE DATA
+Use the tab with the mongo command and run this command:
+db.dropDatabase();
