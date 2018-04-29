@@ -1,0 +1,11 @@
+Open terminal and run this command:
+~/desktop/FinalProject/wp-final-project/mongodb/bin/mongod
+
+Press command T to open a new tab and run this command:
+~/desktop/FinalProject/wp-final-project/mongodb/bin/mongo --host 127.0.0.1:27017
+
+Press command T to open a new tab and run this command:
+cd ~/desktop/FinalProject/wp-final-project/MEANStack2018/front-end
+
+Then run this command:
+gulp serve
