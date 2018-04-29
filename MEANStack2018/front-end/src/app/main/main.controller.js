@@ -2,7 +2,6 @@ export class MainController {
   constructor ($http) {
     'ngInject';
     this.$http = $http;
-    this.postMessage = this.postMessage.bind(this);
     this.getMessages();
   }
 
