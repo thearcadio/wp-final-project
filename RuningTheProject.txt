@@ -9,3 +9,9 @@ cd ~/desktop/FinalProject/wp-final-project/MEANStack2018/front-end
 
 Then run this command:
 gulp serve
+
+Presse command T to open a new tab and run this command:
+cd ~/desktop/FinalProject/wp-final-project/MEANStack2018/back-end
+
+Then run this command:
+node server.js
