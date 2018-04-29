@@ -3,6 +3,14 @@ export class MainController {
     'ngInject';
     this.$http = $http;
     this.postMessage = this.postMessage.bind(this);
+    this.getMessages();
+  }
+
+  getMessages(){
+    var vm = this;
+    this.$http.get('http://localhost:5000/api/message').then(function(result){
+      vm.messages = result.data;
+    });
   }
 
   postMessage(){
